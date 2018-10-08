@@ -1,121 +1,56 @@
 import turtle
 
-turtle.forward(240)
-
-turtle.left(90)
-
-turtle.forward(160)
-
-turtle.left(90)
-
-turtle.forward(240)
-
-turtle.left(90)
-
-turtle.forward(160)
-
-
-
-
-
-turtle.penup()
-
-turtle.goto(30,130)
-
-turtle.pendown()
+turtle.bgcolor("red")
+turtle.fillcolor("yellow")
+turtle.color('yellow')
+turtle.speed(50)
+turtle.begin_fill()
+turtle.up()
+turtle.goto(-600,220)
+turtle.down()
+for i in range (5):
+    turtle.forward(150)
+    turtle.right(144)
+turtle.end_fill()
 
 turtle.begin_fill()
-
-for _ in range(5):
-
-	turtle.forward(40)
-
-	turtle.right(144)
-
-	turtle.end_fill()
-
-  turtle.penup()
-
-  
-
-  
-
-turtle.goto(85,145)
-
-turtle.left(15)
-
-turtle.pendown()
+turtle.up()
+turtle.goto(-400,295)
+turtle.setheading(305)
+turtle.down()
+for i in range (5):
+    turtle.forward(50)
+    turtle.left(144)
+turtle.end_fill()
 
 turtle.begin_fill()
+turtle.up()
+turtle.goto(-350,212)
+turtle.setheading(30)
+turtle.down()
+for i in range (5):
+    turtle.forward(50)
+    turtle.right(144)
+turtle.end_fill()
 
-for _ in range(5):
-
-	turtle.forward(8)
-
-	turtle.right(144)
-
-	turtle.end_fill()
-
-  
-
-  
-
-turtle.penup()
-
-turtle.goto(100,135)
-
-turtle.right(15)
-
-turtle.pendown()
 
 turtle.begin_fill()
-
-for _ in range(5):
-
-	turtle.forward(8)
-
-	turtle.right(144)
-
-	turtle.end_fill()
-
-  
-
-  
-
-turtle.penup() 
-
-turtle.goto(100,125)
-
-turtle.pendown()
+turtle.up()
+turtle.goto(-350,145)
+turtle.setheading(5)
+turtle.down()
+for i in range (5):
+    turtle.forward(50)
+    turtle.right(144)
+turtle.end_fill()
 
 turtle.begin_fill()
+turtle.up()
+turtle.goto(-400,90)
+turtle.setheading(300)
+turtle.down()
+for i in range (5):
+    turtle.forward(50)
+    turtle.left(144)
 
-for _ in range(5):
-
-	turtle.forward(8)
-
-	turtle.right(144)
-
-	turtle.end_fill()
-
-  
-
-
-
-turtle.penup()
-
-turtle.goto(85,115)
-
-turtle.right(15)
-
-turtle.pendown()
-
-turtle.begin_fill()
-
-for _ in range(5):
-
-	turtle.forward(8)
-
-	turtle.right(144)
-
-	turtle.end_fill()
+turtle.end_fill()
